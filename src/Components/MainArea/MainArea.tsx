@@ -1,13 +1,14 @@
 import React, { Fragment } from 'react'
-import { useStore } from '../../Stores/storeContext';
-import { action } from 'mobx';
+import LoginPage from '../LoginPage/LoginPage'
+import classes from './MainArea.module.css';
 
 const MainArea: React.FC = () => {
-    const STORE = useStore();
 
     return (
         <Fragment>
-            <button onClick={action(STORE.SetIsLogin)}>Click Me</button>
+            <div className={classes.Login_container}>
+                <LoginPage />
+            </div>
         </Fragment >
     )
 

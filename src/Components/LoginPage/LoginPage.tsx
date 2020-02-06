@@ -1,17 +1,27 @@
-import React, { Fragment } from 'react'
-import { useStore } from '../../Stores/storeContext';
+import React, { Fragment } from 'react';
+// import { useStore } from '../../Stores/storeContext';
 import { observer } from 'mobx-react-lite';
-
+import classes from "./LoginPage.module.css";
 
 const LoginPage: React.FC = observer(() => {
 
-    const STORE = useStore();
-
-    const Form = <div> <span>Username: </span><input type="text" /> <span>Password: </span><input type="text" /> </div>
+    // const STORE = useStore();
 
     return (
         <Fragment>
-            {STORE.IsLogin ? Form : null}
+            <div className={classes.Login_Area}>
+                <section>
+                    <label htmlFor="Username">Username: </label>
+                    <input id="Username" type="text" />
+                </section>
+                <section>
+                    <label htmlFor="Password">Password: </label>
+                    <input id="Password" type="password" />
+                </section>
+                <section>
+                    <button className={classes.Login_button}>Login</button>
+                </section>
+            </div>
         </Fragment>
     )
 

@@ -21,7 +21,6 @@ class App extends React.Component {
             <Header />
             <Sidebar />
             <MainArea />
-            <LoginPage />
           </StoreProvider>
         </div>
       </Fragment>

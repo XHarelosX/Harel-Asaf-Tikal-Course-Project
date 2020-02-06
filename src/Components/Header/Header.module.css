@@ -1,6 +1,6 @@
 .header {
     border-bottom: 1px solid rgb(134, 134, 134);
-    background-color: rgb(179, 190, 211);
+    background-color: rgb(135, 167, 194);
 }
 
 .Burger_main_div {
@@ -39,6 +39,8 @@
     margin: 5px 10px 5px 15px;
     padding-bottom: 2px;
     font-size: 18px;
+    font-family: "Gugi", "Franklin Gothic Medium ", "Arial Narrow", Arial,
+        sans-serif;
 }
 
 @media only screen and (min-width: 450px) {
@@ -54,4 +56,3 @@
         box-sizing: content-box;
     }
 }
-
