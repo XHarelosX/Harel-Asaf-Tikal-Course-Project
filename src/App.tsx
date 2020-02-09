@@ -3,7 +3,6 @@ import { configure } from 'mobx';
 import MainArea from './Components/MainArea/MainArea';
 import Header from './Components/Header/Header';
 import StoreProvider from './Stores/storeContext';
-import LoginPage from './Components/LoginPage/LoginPage';
 import Sidebar from './Components/Sidebar/Sidebar';
 import Backdrop from './Components/Backdrop/Backdrop';
 
