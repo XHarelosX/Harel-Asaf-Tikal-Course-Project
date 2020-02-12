@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Harel-Asaf-Tikal-Course-Project/precache-manifest.4e726535305bdc5fbc7a74219a5e5731.js"
+  "/Harel-Asaf-Tikal-Course-Project/precache-manifest.165f71c814c2201a692bf6cb30f88fdb.js"
 );
 
 self.addEventListener('message', (event) => {
