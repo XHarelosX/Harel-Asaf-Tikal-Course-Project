@@ -8,15 +8,17 @@
     padding: 0 0;
     width: 170px;
     text-align: center;
-    font-size: 20px;
-    font-family: "Gugi", "Franklin Gothic Medium ", "Arial Narrow", Arial,
-        sans-serif;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ul_li{
+    margin-bottom: 10px;
 }
 
 .aside_sidebar {
     position: absolute;
     box-sizing: border-box;
-    background-color: rgb(179, 190, 211);
+    background-color: rgb(216, 101, 34);
     border: 1px solid black;
     top: 0;
     left: 0;

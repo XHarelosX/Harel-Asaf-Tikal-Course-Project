@@ -18,8 +18,8 @@ const Sidebar: React.FC = observer(() => {
             <aside className={sideNavbarCss}>
                 <nav className={classes.nav_sidebar}>
                     <ul className={classes.ul_sidebar}>
-                        <li>Home</li>
-                        <li>Login</li>
+                        <li className={classes.ul_li}>Home</li>
+                        <li className={classes.ul_li}>Login</li>
                     </ul>
                 </nav>
             </aside>

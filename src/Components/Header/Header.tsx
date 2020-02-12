@@ -11,7 +11,7 @@ const Header: React.FC = observer(() => {
     STORE.Set_SideBar_Status();
   }
 
-  const loginButtonInNavbar = <li className={classes.nav_bar_ul_li}>Login</li>;
+  const loginButtonInNavbar = <li className={classes.nav_bar_ul_li}>Logout</li>;
   const isLoggedIn = STORE.IsLogin.valueOf();
 
   return (
@@ -28,8 +28,9 @@ const Header: React.FC = observer(() => {
           </div>
           <ul className={classes.nav_bar_ul}>
             <li className={classes.nav_bar_ul_li}>Home</li>
-            {!isLoggedIn ? loginButtonInNavbar : null}
+            {isLoggedIn ? loginButtonInNavbar : null}
           </ul>
+          {/* <img src="../../university_logo.jpg"/> */}
         </nav>
       </header>
     </Fragment>
