@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Harel-Asaf-Tikal-Course-Project/static/css/main.bc48c8d2.chunk.css",
-    "main.js": "/Harel-Asaf-Tikal-Course-Project/static/js/main.acaf3cf3.chunk.js",
-    "main.js.map": "/Harel-Asaf-Tikal-Course-Project/static/js/main.acaf3cf3.chunk.js.map",
+    "main.css": "/Harel-Asaf-Tikal-Course-Project/static/css/main.e8723914.chunk.css",
+    "main.js": "/Harel-Asaf-Tikal-Course-Project/static/js/main.e3af96ca.chunk.js",
+    "main.js.map": "/Harel-Asaf-Tikal-Course-Project/static/js/main.e3af96ca.chunk.js.map",
     "runtime-main.js": "/Harel-Asaf-Tikal-Course-Project/static/js/runtime-main.40e6f782.js",
     "runtime-main.js.map": "/Harel-Asaf-Tikal-Course-Project/static/js/runtime-main.40e6f782.js.map",
     "static/js/2.1c1cae58.chunk.js": "/Harel-Asaf-Tikal-Course-Project/static/js/2.1c1cae58.chunk.js",
     "static/js/2.1c1cae58.chunk.js.map": "/Harel-Asaf-Tikal-Course-Project/static/js/2.1c1cae58.chunk.js.map",
     "index.html": "/Harel-Asaf-Tikal-Course-Project/index.html",
-    "precache-manifest.10af1d1a041a8960db73108eb1f68d5f.js": "/Harel-Asaf-Tikal-Course-Project/precache-manifest.10af1d1a041a8960db73108eb1f68d5f.js",
+    "precache-manifest.4e726535305bdc5fbc7a74219a5e5731.js": "/Harel-Asaf-Tikal-Course-Project/precache-manifest.4e726535305bdc5fbc7a74219a5e5731.js",
     "service-worker.js": "/Harel-Asaf-Tikal-Course-Project/service-worker.js",
-    "static/css/main.bc48c8d2.chunk.css.map": "/Harel-Asaf-Tikal-Course-Project/static/css/main.bc48c8d2.chunk.css.map",
+    "static/css/main.e8723914.chunk.css.map": "/Harel-Asaf-Tikal-Course-Project/static/css/main.e8723914.chunk.css.map",
     "static/js/2.1c1cae58.chunk.js.LICENSE.txt": "/Harel-Asaf-Tikal-Course-Project/static/js/2.1c1cae58.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.40e6f782.js",
     "static/js/2.1c1cae58.chunk.js",
-    "static/css/main.bc48c8d2.chunk.css",
-    "static/js/main.acaf3cf3.chunk.js"
+    "static/css/main.e8723914.chunk.css",
+    "static/js/main.e3af96ca.chunk.js"
   ]
 }
