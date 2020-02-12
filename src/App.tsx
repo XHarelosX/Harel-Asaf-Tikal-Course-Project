@@ -5,6 +5,7 @@ import Header from './Components/Header/Header';
 import StoreProvider from './Stores/storeContext';
 import Sidebar from './Components/Sidebar/Sidebar';
 import Backdrop from './Components/Backdrop/Backdrop';
+import HomePage from  './Components/HomePage/HomePage'
 
 configure({ enforceActions: "observed" });
 
