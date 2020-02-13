@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Harel-Asaf-Tikal-Course-Project/static/css/main.f2dea8fc.chunk.css",
+    "main.css": "/Harel-Asaf-Tikal-Course-Project/static/css/main.8a44f585.chunk.css",
     "main.js": "/Harel-Asaf-Tikal-Course-Project/static/js/main.55ef635c.chunk.js",
     "main.js.map": "/Harel-Asaf-Tikal-Course-Project/static/js/main.55ef635c.chunk.js.map",
     "runtime-main.js": "/Harel-Asaf-Tikal-Course-Project/static/js/runtime-main.40e6f782.js",
@@ -8,15 +8,15 @@
     "static/js/2.045f6401.chunk.js": "/Harel-Asaf-Tikal-Course-Project/static/js/2.045f6401.chunk.js",
     "static/js/2.045f6401.chunk.js.map": "/Harel-Asaf-Tikal-Course-Project/static/js/2.045f6401.chunk.js.map",
     "index.html": "/Harel-Asaf-Tikal-Course-Project/index.html",
-    "precache-manifest.165f71c814c2201a692bf6cb30f88fdb.js": "/Harel-Asaf-Tikal-Course-Project/precache-manifest.165f71c814c2201a692bf6cb30f88fdb.js",
+    "precache-manifest.724f9448fc49fb2ad3db5455df93bc63.js": "/Harel-Asaf-Tikal-Course-Project/precache-manifest.724f9448fc49fb2ad3db5455df93bc63.js",
     "service-worker.js": "/Harel-Asaf-Tikal-Course-Project/service-worker.js",
-    "static/css/main.f2dea8fc.chunk.css.map": "/Harel-Asaf-Tikal-Course-Project/static/css/main.f2dea8fc.chunk.css.map",
+    "static/css/main.8a44f585.chunk.css.map": "/Harel-Asaf-Tikal-Course-Project/static/css/main.8a44f585.chunk.css.map",
     "static/js/2.045f6401.chunk.js.LICENSE.txt": "/Harel-Asaf-Tikal-Course-Project/static/js/2.045f6401.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.40e6f782.js",
     "static/js/2.045f6401.chunk.js",
-    "static/css/main.f2dea8fc.chunk.css",
+    "static/css/main.8a44f585.chunk.css",
     "static/js/main.55ef635c.chunk.js"
   ]
 }
