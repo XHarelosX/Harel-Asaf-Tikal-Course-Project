@@ -32,7 +32,7 @@ const Header: React.FC = observer(() => {
             </ul>
           </div>
           <div className={classes.div_img_container}>
-            <img className={classes.logo_img} src="../../university_logo.png"/>
+            <img className={classes.logo_img} src="university_logo.png" />
           </div>
         </nav>
       </header>
