@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a300298a915e028048d0f9dcf1647336",
+    "revision": "0f57c7d35ab4d45e379d2021517e999c",
     "url": "/Harel-Asaf-Tikal-Course-Project/index.html"
   },
   {
-    "revision": "c2d922b528847d169e03",
-    "url": "/Harel-Asaf-Tikal-Course-Project/static/css/main.8a44f585.chunk.css"
+    "revision": "9a6b304b2cf1be930d5f",
+    "url": "/Harel-Asaf-Tikal-Course-Project/static/css/main.4ab662e4.chunk.css"
   },
   {
     "revision": "a768b823248e2a3af1bd",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Harel-Asaf-Tikal-Course-Project/static/js/2.045f6401.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c2d922b528847d169e03",
+    "revision": "9a6b304b2cf1be930d5f",
     "url": "/Harel-Asaf-Tikal-Course-Project/static/js/main.510b832b.chunk.js"
   },
   {
