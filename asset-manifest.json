@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Harel-Asaf-Tikal-Course-Project/static/css/main.dd02f166.chunk.css",
-    "main.js": "/Harel-Asaf-Tikal-Course-Project/static/js/main.5df5782a.chunk.js",
-    "main.js.map": "/Harel-Asaf-Tikal-Course-Project/static/js/main.5df5782a.chunk.js.map",
-    "runtime-main.js": "/Harel-Asaf-Tikal-Course-Project/static/js/runtime-main.40e6f782.js",
-    "runtime-main.js.map": "/Harel-Asaf-Tikal-Course-Project/static/js/runtime-main.40e6f782.js.map",
-    "static/js/2.e6c830e6.chunk.js": "/Harel-Asaf-Tikal-Course-Project/static/js/2.e6c830e6.chunk.js",
-    "static/js/2.e6c830e6.chunk.js.map": "/Harel-Asaf-Tikal-Course-Project/static/js/2.e6c830e6.chunk.js.map",
-    "index.html": "/Harel-Asaf-Tikal-Course-Project/index.html",
-    "precache-manifest.374dfb90413361d4cc15b6cc3ab175df.js": "/Harel-Asaf-Tikal-Course-Project/precache-manifest.374dfb90413361d4cc15b6cc3ab175df.js",
-    "service-worker.js": "/Harel-Asaf-Tikal-Course-Project/service-worker.js",
-    "static/css/main.dd02f166.chunk.css.map": "/Harel-Asaf-Tikal-Course-Project/static/css/main.dd02f166.chunk.css.map",
-    "static/js/2.e6c830e6.chunk.js.LICENSE.txt": "/Harel-Asaf-Tikal-Course-Project/static/js/2.e6c830e6.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.dd02f166.chunk.css",
+    "main.js": "/static/js/main.a29a91cb.chunk.js",
+    "main.js.map": "/static/js/main.a29a91cb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e2f55b13.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e2f55b13.js.map",
+    "static/js/2.25bac1d4.chunk.js": "/static/js/2.25bac1d4.chunk.js",
+    "static/js/2.25bac1d4.chunk.js.map": "/static/js/2.25bac1d4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.19ff0fa0bbdc904d15302cc053f47814.js": "/precache-manifest.19ff0fa0bbdc904d15302cc053f47814.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.dd02f166.chunk.css.map": "/static/css/main.dd02f166.chunk.css.map",
+    "static/js/2.25bac1d4.chunk.js.LICENSE.txt": "/static/js/2.25bac1d4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.40e6f782.js",
-    "static/js/2.e6c830e6.chunk.js",
+    "static/js/runtime-main.e2f55b13.js",
+    "static/js/2.25bac1d4.chunk.js",
     "static/css/main.dd02f166.chunk.css",
-    "static/js/main.5df5782a.chunk.js"
+    "static/js/main.a29a91cb.chunk.js"
   ]
 }
