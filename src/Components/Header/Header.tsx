@@ -3,6 +3,7 @@ import { observer } from "mobx-react-lite";
 import { action } from "mobx";
 import classes from "./Header.module.css";
 import { useStore } from "../../Stores/storeContext";
+import { NavLink } from "react-router-dom";
 
 const Header: React.FC = observer(() => {
   const STORE = useStore();
@@ -11,7 +12,7 @@ const Header: React.FC = observer(() => {
     STORE.Set_SideBar_Status();
   }
 
-  const loginButtonInNavbar = <li className={classes.nav_bar_ul_li}>Login</li>;
+  const loginButtonInNavbar = <NavLink to="/Login" className={classes.nav_bar_ul_link} activeStyle={{ textDecoration: "underline" }}><li>Login</li></NavLink>;
   const isLoggedIn = STORE.IsLogin.valueOf();
 
   return (
@@ -27,12 +28,12 @@ const Header: React.FC = observer(() => {
           </div>
           <div className={classes.div_ul_container}>
             <ul className={classes.nav_bar_ul}>
-              <li className={classes.nav_bar_ul_li}>Home</li>
+              <NavLink to="/Home" className={classes.nav_bar_ul_link} activeStyle={{ textDecoration: "underline" }}><li>Home</li></NavLink>
               {!isLoggedIn ? loginButtonInNavbar : null}
             </ul>
           </div>
           <div className={classes.div_img_container}>
-            <img className={classes.logo_img} src="university_logo.png" />
+            <img className={classes.logo_img} src="university_logo.png" alt="university_logo"/>
           </div>
         </nav>
       </header>

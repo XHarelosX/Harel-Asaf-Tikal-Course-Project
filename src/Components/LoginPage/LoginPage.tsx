@@ -10,19 +10,21 @@ const LoginPage: React.FC = observer(() => {
 
     return (
         <Fragment>
-            <div className={classes.Login_Area}>
-                <section>
-                    <label htmlFor="Username">Username: </label>
-                    <input id="Username" type="text" />
-                </section>
-                <section>
-                    <label htmlFor="Password">Password: </label>
-                    <input id="Password" type="password" />
-                </section>
-                <section>
-                    <button className={classes.Login_button} onClick={action(STORE.SetIsLogin)}>Login</button>
-                </section>
-            </div>
+            <main className={classes.main}>
+                <div className={classes.Login_Area}>
+                    <section>
+                        <label htmlFor="Username">Username: </label>
+                        <input id="Username" type="text" />
+                    </section>
+                    <section>
+                        <label htmlFor="Password">Password: </label>
+                        <input id="Password" type="password" />
+                    </section>
+                    <section>
+                        <button className={classes.Login_button} onClick={action(STORE.SetIsLogin)}>Login</button>
+                    </section>
+                </div>
+            </main>
         </Fragment>
     )
 

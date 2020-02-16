@@ -1,12 +1,11 @@
 /* .root-variables{
 } */
 
+/* -------------------- Component Css -------------------- */
 .header {
-    border-bottom: 1px solid rgb(0, 0, 0);
-    background-color: rgba(211, 81, 6, 1);
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px -1px,
-        rgba(0, 0, 0, 0.24) 0px 4px 5px 0px,
-        rgba(0, 0, 0, 0.22) 0px 1px 10px 0px;
+    background-color: rgb(216, 101, 34);
+    animation: Header-Fade-In ease-in 0.8s;
+    will-change: opacity;
 }
 .Burger_container {
     display: flex;
@@ -45,16 +44,17 @@
     box-sizing: content-box; */
 }
 
-.nav_bar_ul_li {
-    padding: 18px 15px 5px 15px;
-    font-size: 20px;
-    font-family: 'Lacquer', sans-serif;
-    background-color: black;
-    color: rgb(218, 101, 33);
+.nav_bar_ul_link {
+    padding: 12px 15px 5px 15px;
+    font-size: 28px;
+    font-family: "Lacquer", sans-serif;
+    color: black;
+    text-decoration: none;
 }
 
-.nav_bar_ul_li:hover {
-    background-color: rgb(54, 54, 54);
+.nav_bar_ul_link:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(216, 101, 34);
 }
 
 .logo_img {
@@ -62,13 +62,20 @@
     height: 55px;
     margin-top: 2px;
     margin-right: 30px;
+    animation: Logo-Roll-In ease-in 0.8s;
 }
 .div_img_container {
     display: flex;
-    justify-content: flex-end;    
+    justify-content: flex-end;
 }
 
+/* -------------------- Media-Queris -------------------- */
 @media only screen and (min-width: 450px) {
+    .header {
+        box-shadow: rgba(255, 94, 0, 0.3) 0px 3px 4px -1px,
+            rgba(255, 94, 0, 0.24) 0px 4px 5px 0px,
+            rgba(255, 94, 0, 0.22) 0px 1px 10px 0px;
+    }
     .Burger_container {
         display: none;
     }
@@ -92,7 +99,22 @@
         justify-content: flex-end;
         width: 50%;
     }
-    .logo_img{
-       margin-right: 30px; 
+}
+
+/* -------------------- Keyframes Animations -------------------- */
+@keyframes Header-Fade-In {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes Logo-Roll-In {
+    0% {
+        margin-right: -200px;
+    }
+    100% {
+        margin-right: 30px;
     }
 }
