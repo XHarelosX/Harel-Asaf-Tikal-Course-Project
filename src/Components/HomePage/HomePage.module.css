@@ -1,9 +1,13 @@
 .main {
     text-align: center;
     position: relative;
-    min-height: calc(100vh - 35vh);
+    min-height: calc(100vh - 22vh);
     display: flex;
     flex-direction: column;
+    background-image: url(../../Images/Pixar_MU.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .main::after {
     content: "";
@@ -29,67 +33,117 @@
     text-decoration: solid;
     left: 0;
 }
-
 .Home_Page_ul {
     margin-top: 0;
+    margin-bottom: 0;
     display: flex;
     padding: 0;
     flex-direction: column;
     justify-content: center;
-    background-color: chocolate;
+    background-color: rgb(238, 93, 10, 0.9);
     border-bottom: 1px solid black;
     border-top: 1px solid black;
 }
-
 .hr {
     width: 85%;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
 }
-
 .li {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
     word-wrap: break-word;
     list-style: none;
-    font-size: 30px;
     color: aliceblue;
-    text-align: center;
-    height: 150px;
     width: 100%;
     box-sizing: border-box;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
-
-.section_signin {
-    border: 1px solid black;
-    background-color: sienna;
-    font-family: "Gloria Hallelujah", cursive;
-    font-size: 26px;
-    font-weight: 700;
-    margin-top: 5px;
-    padding-bottom: 3px;
-
-    display: flex;
-    flex-direction: column;
-}
-
-.div_signin {
-    
-}
-
-.span_signin {
-    text-decoration: none;
-    color: black;
-    height: 30px;
-}
-.span_signin:hover {
-    text-decoration: underline;
-}
-
 .pet_icon {
     padding-top: 10px;
     margin-left: 3px;
-    font-size: 26px;
+    font-size: 20px;
+    color: rgb(216, 101, 34);
 }
-.div_student{
+.div_student {
     height: 40px;
     display: inline-block;
+}
+.li_num_info {
+    box-sizing: border-box;
+    border-right: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+    flex-basis: 50%;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.li_num_info_no_border {
+    border-right: none;
+}
+.aside_links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 20%;
+    font-size: 18px;
+    font-weight: 600;
+}
+.aside_links_button {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    height: 30px;
+    width: 175px;
+    right: 0;
+    padding-top: 10px;
+    margin-bottom: 0.4em;
+    background-color: rgb(238, 93, 10);
+    color: rgb(0, 0, 0);
+    transform: translateX(0);
+    transition: all ease-in-out 0.25s;
+}
+.aside_links_button:hover {
+    width: 200px;
+    background-color: rgb(212, 78, 0);
+}
+.section_explore_screagleLife {
+    background-color: rgb(20, 20, 20);
+    padding-top: 20px;
+}
+
+@media only screen and (min-width: 450px) {
+    .main {
+        min-height: calc(100vh - 6vh);
+    }
+}
+@media only screen and (min-width: 600px) {
+    .section_signin {
+        display: none;
+    }
+    .li_num_info {
+        margin-top: 20px;
+        font-size: 1.3em;
+    }
+    .main {
+        min-height: calc(100vh - 8vh);
+    }
+}
+@media only screen and (min-width: 960px) {
+    .li_num_info_border {
+        border-right: 2px solid rgb(0, 0, 0);
+    }
+    .section_signin {
+        display: none;
+    }
+    .li_num_info {
+        flex: 1;
+        font-size: 1.35em;
+    }
 }

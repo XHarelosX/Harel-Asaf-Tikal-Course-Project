@@ -12,15 +12,15 @@ const LoginPage: React.FC = observer(() => {
         <Fragment>
             <main className={classes.main}>
                 <div className={classes.Login_Area}>
-                    <section>
+                    <section className={classes.section}>
                         <label htmlFor="Username">Username: </label>
                         <input id="Username" type="text" />
                     </section>
-                    <section>
+                    <section className={classes.section}>
                         <label htmlFor="Password">Password: </label>
                         <input id="Password" type="password" />
                     </section>
-                    <section>
+                    <section className={classes.section}>
                         <button className={classes.Login_button} onClick={action(STORE.SetIsLogin)}>Login</button>
                     </section>
                 </div>

@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import { configure } from 'mobx';
 import MainArea from './Components/MainArea/MainArea';
 import Header from './Components/Header/Header';
