@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Harel-Asaf-Tikal-Course-Project/static/css/main.39b14ce9.chunk.css",
-    "main.js": "/Harel-Asaf-Tikal-Course-Project/static/js/main.058522cf.chunk.js",
-    "main.js.map": "/Harel-Asaf-Tikal-Course-Project/static/js/main.058522cf.chunk.js.map",
+    "main.css": "/Harel-Asaf-Tikal-Course-Project/static/css/main.d35de2a7.chunk.css",
+    "main.js": "/Harel-Asaf-Tikal-Course-Project/static/js/main.71890ce3.chunk.js",
+    "main.js.map": "/Harel-Asaf-Tikal-Course-Project/static/js/main.71890ce3.chunk.js.map",
     "runtime-main.js": "/Harel-Asaf-Tikal-Course-Project/static/js/runtime-main.40e6f782.js",
     "runtime-main.js.map": "/Harel-Asaf-Tikal-Course-Project/static/js/runtime-main.40e6f782.js.map",
     "static/js/2.c5dac83a.chunk.js": "/Harel-Asaf-Tikal-Course-Project/static/js/2.c5dac83a.chunk.js",
     "static/js/2.c5dac83a.chunk.js.map": "/Harel-Asaf-Tikal-Course-Project/static/js/2.c5dac83a.chunk.js.map",
     "index.html": "/Harel-Asaf-Tikal-Course-Project/index.html",
-    "precache-manifest.0b785a9d4edef2799ed22e05352f9e06.js": "/Harel-Asaf-Tikal-Course-Project/precache-manifest.0b785a9d4edef2799ed22e05352f9e06.js",
+    "precache-manifest.0cc4b46b7b94a02d1052faf53668e732.js": "/Harel-Asaf-Tikal-Course-Project/precache-manifest.0cc4b46b7b94a02d1052faf53668e732.js",
     "service-worker.js": "/Harel-Asaf-Tikal-Course-Project/service-worker.js",
-    "static/css/main.39b14ce9.chunk.css.map": "/Harel-Asaf-Tikal-Course-Project/static/css/main.39b14ce9.chunk.css.map",
+    "static/css/main.d35de2a7.chunk.css.map": "/Harel-Asaf-Tikal-Course-Project/static/css/main.d35de2a7.chunk.css.map",
     "static/js/2.c5dac83a.chunk.js.LICENSE.txt": "/Harel-Asaf-Tikal-Course-Project/static/js/2.c5dac83a.chunk.js.LICENSE.txt",
     "static/media/Monsters-University-Clips.jpg": "/Harel-Asaf-Tikal-Course-Project/static/media/Monsters-University-Clips.38909fc6.jpg",
     "static/media/HomePage.module.css": "/Harel-Asaf-Tikal-Course-Project/static/media/Pixar_MU.e93fdc2a.jpg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.40e6f782.js",
     "static/js/2.c5dac83a.chunk.js",
-    "static/css/main.39b14ce9.chunk.css",
-    "static/js/main.058522cf.chunk.js"
+    "static/css/main.d35de2a7.chunk.css",
+    "static/js/main.71890ce3.chunk.js"
   ]
 }
