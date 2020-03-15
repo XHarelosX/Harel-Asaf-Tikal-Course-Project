@@ -10,12 +10,13 @@
     margin: 16px;
 }
 .ul_li_div {
-    height: 300px;
-    width: 100%;
+    height: 320px;
     flex-basis: 100%;
     flex-grow: 0;
     max-width: 100%;
     border: 1px solid rgb(182, 70, 5);
+    position: relative;
+    overflow: hidden;
 }
 .div_img {
     height: 100%;
@@ -41,6 +42,67 @@
     margin: 0;
     width: 50%;
 }
+.div_title {
+    background-color: rgba(255, 255, 255, 0.8);
+    transform: skewX(-45deg);
+    position: absolute;
+    display: inline-block;
+    top: 75%;
+    left: -50px;
+    min-width: 20%;
+    min-height: 1%;
+}
+.h2_title {
+    transform: skewX(45deg);
+    margin: 0;
+    margin-left: 50px;
+    padding: 0.5em 2em 0.5em 1em;
+    font-size: 22px;
+}
+.title_hr {
+    width: 0;
+    border: none;
+    height: 0;
+    margin: 0;
+    background-color: #333;
+}
+.title_p {
+    height: 0;
+    opacity: 0;
+    margin: 0;
+    width: 0;
+    will-change: opacity;
+}
+.ul_li:hover .div_title {
+    transition: min-width 0.2s 0.1s, min-height 0.2s 0s, top 0.2s 0.1s;
+    min-width: 100%;
+    min-height: 100%;
+    top: 0;
+    transform: skewX(0);
+    left: 0;
+}
+.ul_li:hover .title_hr {
+    transition: width 0.2s 0.3s;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: 1px;
+}
+.ul_li:hover .title_p {
+    transition: opacity 0.3s 0.3s;
+    height: auto;
+    width: auto;
+    opacity: 1;
+    margin: 1em 5%;
+}
+.ul_li:hover .h2_title {
+    transform: skewX(0);
+    text-align: center;
+    margin-left: 0;
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+
 @media only screen and (min-width: 450px) {
     .h2 {
         font-size: 1.6em;
@@ -51,12 +113,21 @@
         flex-direction: row;
     }
     .ul_li {
-        flex-basis: 42%;
+        flex-basis: 45%;
         flex-grow: 1;
-        max-width: 42%;
+        max-width: 45%;
     }
     .h2 {
         font-size: 2em;
+    }
+    .ul_li {
+        margin: 5px;
+    }
+    .ul_conteiner {
+        margin: 0 5px;
+    }
+    .h2_title {
+        font-size: 1em;
     }
 }
 @media only screen and (min-width: 960px) {
@@ -67,6 +138,9 @@
     }
     .h2 {
         font-size: 2.5em;
+    }
+    .h2_title {
+        font-size: 1.4em;
     }
 }
 @media only screen and (min-width: 1264px) {
