@@ -57,7 +57,7 @@
     margin: 0;
     margin-left: 50px;
     padding: 0.5em 2em 0.5em 1em;
-    font-size: 22px;
+    font-size: 1.3rem;
 }
 .title_hr {
     width: 0;
@@ -94,6 +94,7 @@
     width: auto;
     opacity: 1;
     margin: 1em 5%;
+    font-size: 1.2em;
 }
 .ul_li:hover .h2_title {
     transform: skewX(0);
@@ -129,6 +130,12 @@
     .h2_title {
         font-size: 1em;
     }
+    .ul_li:hover .h2_title {
+        font-size: 1.2em;
+    }
+    .ul_li:hover .title_p {
+        font-size: 1.05em;
+    }
 }
 @media only screen and (min-width: 960px) {
     .ul_li {
@@ -141,6 +148,9 @@
     }
     .h2_title {
         font-size: 1.4em;
+    }
+    .ul_li:hover .title_p {
+        font-size: 1.15em;
     }
 }
 @media only screen and (min-width: 1264px) {

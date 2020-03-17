@@ -4,6 +4,7 @@
     min-height: calc(100vh - 22vh);
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-image: url(../../Images/Pixar_MU.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -84,14 +85,43 @@
 .li_num_info_no_border {
     border-right: none;
 }
+.search_area_h1 {
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.search_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.search_area_span {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.search_area {
+    background-color: rgba(182, 70, 5, 0.8);
+    width: 85%;
+    margin: 40px 0;
+    padding-bottom: 10px;
+    padding: 1.5rem;
+}
+.search_input {
+    background-color: transparent;
+    font-size: 1.2rem;
+    border: 0;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}
+.search_input:focus {
+    padding: 0;
+    box-sizing: border-box;
+}
 .aside_links {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    position: absolute;
-    z-index: 1;
-    right: 0;
-    top: 20%;
     font-size: 18px;
     font-weight: 600;
 }
@@ -110,8 +140,7 @@
     transition: all ease-in-out 0.25s;
 }
 .aside_links_button:hover {
-    width: 200px;
-    background-color: rgb(212, 78, 0);
+    background-color: rgb(190, 71, 2);
 }
 .section_explore_screagleLife {
     background-color: rgb(20, 20, 20);
@@ -124,6 +153,13 @@
     }
 }
 @media only screen and (min-width: 600px) {
+    .search_area {
+        width: 70%;
+        padding: 2rem;
+    }
+    .search_area_span {
+        font-size: 1.4rem;
+    }
     .section_signin {
         display: none;
     }
@@ -136,6 +172,19 @@
     }
 }
 @media only screen and (min-width: 960px) {
+    .aside_container {
+        position: absolute;
+        z-index: 1;
+        right: 0;
+        top: 22%;
+    }
+    .aside_links_button:hover {
+        width: 200px;
+        background-color: rgb(212, 78, 0);
+    }
+    .search_area {
+        width: 45%;
+    }
     .li_num_info_border {
         border-right: 2px solid rgb(0, 0, 0);
     }
@@ -146,10 +195,18 @@
         flex: 1;
         font-size: 1.3em;
     }
+    .search_form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
 }
 @media only screen and (min-width: 1260px) {
     .li_num_info {
         flex: 1;
         font-size: 1.5em;
+    }
+    .search_area {
+        width: 45%;
     }
 }

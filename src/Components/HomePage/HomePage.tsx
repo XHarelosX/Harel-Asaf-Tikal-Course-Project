@@ -8,11 +8,21 @@ const HomePage: React.FC = observer(() => {
     return (
         <Fragment>
             <main className={classes.main}>
-                <section className={classes.search_area}>Find your degree</section>
-                <aside className={classes.aside_links}>
-                    <Link to="/" className={classes.aside_links_button}>REQUEST INFO</Link>
-                    <Link to="/" className={classes.aside_links_button}>VISIT</Link>
-                    <Link to="/" className={classes.aside_links_button}>APPLY</Link>
+                <section className={classes.search_area}>
+                    <h1 className={classes.search_area_h1}>Find your degree</h1>
+                    <div>
+                        <form className={classes.search_form}>
+                            <span className={classes.search_area_span}>I'm interested in</span>
+                            <input className={classes.search_input} type="text" />
+                        </form>
+                    </div>
+                </section>
+                <aside className={classes.aside_container}>
+                    <section className={classes.aside_links}>
+                        <Link to="/" className={classes.aside_links_button}>REQUEST INFO</Link>
+                        <Link to="/" className={classes.aside_links_button}>VISIT</Link>
+                        <Link to="/" className={classes.aside_links_button}>APPLY</Link>
+                    </section>
                 </aside>
             </main>
             <ul className={classes.Home_Page_ul}>

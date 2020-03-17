@@ -26,7 +26,7 @@ const ScreagleLife: React.FC<Props> = () => {
                         <div className={classes.div_title}>
                             <h2 className={classes.h2_title}>School Spirit</h2>
                             <hr className={classes.title_hr}></hr>
-                            <p className={classes.title_p}>Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+                            <p className={classes.title_p}>Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus.</p>
                         </div>
                     </div>
                 </li>
@@ -36,7 +36,7 @@ const ScreagleLife: React.FC<Props> = () => {
                         <div className={classes.div_title}>
                             <h2 className={classes.h2_title}>Housing</h2>
                             <hr className={classes.title_hr}></hr>
-                            <p className={classes.title_p}>Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+                            <p className={classes.title_p}>Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus.</p>
                         </div>
                     </div>
                 </li>
@@ -46,7 +46,7 @@ const ScreagleLife: React.FC<Props> = () => {
                         <div className={classes.div_title}>
                             <h2 className={classes.h2_title}>Student Involvement</h2>
                             <hr className={classes.title_hr}></hr>
-                            <p className={classes.title_p}>Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+                            <p className={classes.title_p}>Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus.</p>
                         </div>
                     </div>
                 </li>
@@ -56,7 +56,7 @@ const ScreagleLife: React.FC<Props> = () => {
                         <div className={classes.div_title}>
                             <h2 className={classes.h2_title}>Club Sports</h2>
                             <hr className={classes.title_hr}></hr>
-                            <p className={classes.title_p}>Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+                            <p className={classes.title_p}>Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus.</p>
                         </div>
                     </div>
                 </li>
@@ -66,7 +66,7 @@ const ScreagleLife: React.FC<Props> = () => {
                         <div className={classes.div_title}>
                             <h2 className={classes.h2_title}>Recreation & Intramurals</h2>
                             <hr className={classes.title_hr}></hr>
-                            <p className={classes.title_p}>Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+                            <p className={classes.title_p}>Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus.</p>
                         </div>
                     </div>
                 </li>
@@ -76,7 +76,7 @@ const ScreagleLife: React.FC<Props> = () => {
                         <div className={classes.div_title}>
                             <h2 className={classes.h2_title}>Student Community</h2>
                             <hr className={classes.title_hr}></hr>
-                            <p className={classes.title_p}>Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.</p>
+                            <p className={classes.title_p}>Sed porttitor lectus nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus.</p>
                         </div>
                     </div>
                 </li>
