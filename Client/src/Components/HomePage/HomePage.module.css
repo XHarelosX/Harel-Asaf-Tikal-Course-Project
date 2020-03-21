@@ -113,9 +113,11 @@
     border: 0;
     box-sizing: border-box;
     border-bottom: 1px solid black;
+    outline: none;
 }
 .search_input:focus {
-    padding: 0;
+    border: 0;
+    border-bottom: 1px solid black;
     box-sizing: border-box;
 }
 .aside_links {

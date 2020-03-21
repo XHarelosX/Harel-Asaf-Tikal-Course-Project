@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Harel-Asaf-Tikal-Course-Project/static/css/main.d35de2a7.chunk.css",
+    "main.js": "/Harel-Asaf-Tikal-Course-Project/static/js/main.71890ce3.chunk.js",
+    "main.js.map": "/Harel-Asaf-Tikal-Course-Project/static/js/main.71890ce3.chunk.js.map",
+    "runtime-main.js": "/Harel-Asaf-Tikal-Course-Project/static/js/runtime-main.40e6f782.js",
+    "runtime-main.js.map": "/Harel-Asaf-Tikal-Course-Project/static/js/runtime-main.40e6f782.js.map",
+    "static/js/2.c5dac83a.chunk.js": "/Harel-Asaf-Tikal-Course-Project/static/js/2.c5dac83a.chunk.js",
+    "static/js/2.c5dac83a.chunk.js.map": "/Harel-Asaf-Tikal-Course-Project/static/js/2.c5dac83a.chunk.js.map",
+    "index.html": "/Harel-Asaf-Tikal-Course-Project/index.html",
+    "precache-manifest.0cc4b46b7b94a02d1052faf53668e732.js": "/Harel-Asaf-Tikal-Course-Project/precache-manifest.0cc4b46b7b94a02d1052faf53668e732.js",
+    "service-worker.js": "/Harel-Asaf-Tikal-Course-Project/service-worker.js",
+    "static/css/main.d35de2a7.chunk.css.map": "/Harel-Asaf-Tikal-Course-Project/static/css/main.d35de2a7.chunk.css.map",
+    "static/js/2.c5dac83a.chunk.js.LICENSE.txt": "/Harel-Asaf-Tikal-Course-Project/static/js/2.c5dac83a.chunk.js.LICENSE.txt",
+    "static/media/Monsters-University-Clips.jpg": "/Harel-Asaf-Tikal-Course-Project/static/media/Monsters-University-Clips.38909fc6.jpg",
+    "static/media/HomePage.module.css": "/Harel-Asaf-Tikal-Course-Project/static/media/Pixar_MU.e93fdc2a.jpg",
+    "static/media/cheerleaders.jpg": "/Harel-Asaf-Tikal-Course-Project/static/media/cheerleaders.3bbd9d4b.jpg",
+    "static/media/maxresdefault.jpg": "/Harel-Asaf-Tikal-Course-Project/static/media/maxresdefault.2386dfce.jpg",
+    "static/media/monsters-university.jpg": "/Harel-Asaf-Tikal-Course-Project/static/media/monsters-university.5112f358.jpg",
+    "static/media/monstersuseaurchin.jpg": "/Harel-Asaf-Tikal-Course-Project/static/media/monstersuseaurchin.0896117c.jpg",
+    "static/media/party.jpg": "/Harel-Asaf-Tikal-Course-Project/static/media/party.3d61ac4a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40e6f782.js",
+    "static/js/2.c5dac83a.chunk.js",
+    "static/css/main.d35de2a7.chunk.css",
+    "static/js/main.71890ce3.chunk.js"
+  ]
+}
