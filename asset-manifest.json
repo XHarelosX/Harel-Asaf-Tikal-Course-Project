@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Harel-Asaf-Tikal-Course-Project/static/css/main.d35de2a7.chunk.css",
-    "main.js": "/Harel-Asaf-Tikal-Course-Project/static/js/main.71890ce3.chunk.js",
-    "main.js.map": "/Harel-Asaf-Tikal-Course-Project/static/js/main.71890ce3.chunk.js.map",
+    "main.css": "/Harel-Asaf-Tikal-Course-Project/static/css/main.badbf187.chunk.css",
+    "main.js": "/Harel-Asaf-Tikal-Course-Project/static/js/main.a2d54aef.chunk.js",
+    "main.js.map": "/Harel-Asaf-Tikal-Course-Project/static/js/main.a2d54aef.chunk.js.map",
     "runtime-main.js": "/Harel-Asaf-Tikal-Course-Project/static/js/runtime-main.40e6f782.js",
     "runtime-main.js.map": "/Harel-Asaf-Tikal-Course-Project/static/js/runtime-main.40e6f782.js.map",
-    "static/js/2.c5dac83a.chunk.js": "/Harel-Asaf-Tikal-Course-Project/static/js/2.c5dac83a.chunk.js",
-    "static/js/2.c5dac83a.chunk.js.map": "/Harel-Asaf-Tikal-Course-Project/static/js/2.c5dac83a.chunk.js.map",
+    "static/js/2.65ce215e.chunk.js": "/Harel-Asaf-Tikal-Course-Project/static/js/2.65ce215e.chunk.js",
+    "static/js/2.65ce215e.chunk.js.map": "/Harel-Asaf-Tikal-Course-Project/static/js/2.65ce215e.chunk.js.map",
     "index.html": "/Harel-Asaf-Tikal-Course-Project/index.html",
-    "precache-manifest.0cc4b46b7b94a02d1052faf53668e732.js": "/Harel-Asaf-Tikal-Course-Project/precache-manifest.0cc4b46b7b94a02d1052faf53668e732.js",
+    "precache-manifest.c82264751606f8606ef022a94ab29513.js": "/Harel-Asaf-Tikal-Course-Project/precache-manifest.c82264751606f8606ef022a94ab29513.js",
     "service-worker.js": "/Harel-Asaf-Tikal-Course-Project/service-worker.js",
-    "static/css/main.d35de2a7.chunk.css.map": "/Harel-Asaf-Tikal-Course-Project/static/css/main.d35de2a7.chunk.css.map",
-    "static/js/2.c5dac83a.chunk.js.LICENSE.txt": "/Harel-Asaf-Tikal-Course-Project/static/js/2.c5dac83a.chunk.js.LICENSE.txt",
+    "static/css/main.badbf187.chunk.css.map": "/Harel-Asaf-Tikal-Course-Project/static/css/main.badbf187.chunk.css.map",
+    "static/js/2.65ce215e.chunk.js.LICENSE.txt": "/Harel-Asaf-Tikal-Course-Project/static/js/2.65ce215e.chunk.js.LICENSE.txt",
     "static/media/Monsters-University-Clips.jpg": "/Harel-Asaf-Tikal-Course-Project/static/media/Monsters-University-Clips.38909fc6.jpg",
     "static/media/HomePage.module.css": "/Harel-Asaf-Tikal-Course-Project/static/media/Pixar_MU.e93fdc2a.jpg",
     "static/media/cheerleaders.jpg": "/Harel-Asaf-Tikal-Course-Project/static/media/cheerleaders.3bbd9d4b.jpg",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.40e6f782.js",
-    "static/js/2.c5dac83a.chunk.js",
-    "static/css/main.d35de2a7.chunk.css",
-    "static/js/main.71890ce3.chunk.js"
+    "static/js/2.65ce215e.chunk.js",
+    "static/css/main.badbf187.chunk.css",
+    "static/js/main.a2d54aef.chunk.js"
   ]
 }
